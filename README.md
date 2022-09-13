@@ -1,0 +1,1 @@
+# Classic three-column layout
