@@ -72,4 +72,8 @@
 
 .footer {
   grid-area: footer;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  padding: 0 1rem;
 }
