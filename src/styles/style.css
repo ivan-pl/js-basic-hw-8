@@ -12,3 +12,35 @@
   /* mobile viewport bug fix */
   min-height: fill-available;
 }
+
+.page {
+  display: grid;
+  grid-template:
+    "header header header" auto
+    "aside-1 main aside-2" 1fr
+    "footer footer footer" auto / 1fr 2fr 1fr;
+  min-height: 100vh;
+  max-width: 90rem;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  grid-area: header;
+}
+
+.aside-1 {
+  grid-area: aside-1;
+}
+
+.aside-2 {
+  grid-area: aside-2;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
