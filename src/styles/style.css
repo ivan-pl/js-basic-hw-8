@@ -52,6 +52,10 @@
 
 .aside-1 {
   grid-area: aside-1;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  padding: 0 7%;
 }
 
 .aside-2 {
