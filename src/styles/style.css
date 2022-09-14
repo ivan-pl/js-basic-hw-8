@@ -60,6 +60,7 @@
 
 .aside-2 {
   grid-area: aside-2;
+  padding: 0 7%;
 }
 
 .main {
