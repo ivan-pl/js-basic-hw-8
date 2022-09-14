@@ -60,6 +60,9 @@
 
 .main {
   grid-area: main;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
 }
 
 .footer {
